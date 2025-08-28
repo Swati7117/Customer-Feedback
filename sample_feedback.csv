@@ -1,0 +1,25 @@
+id,text,channel,locale,timestamp
+doc-1,Delivery was late by 3 days and no updates were sent.,reviews,en,2025-08-20T10:23:00Z
+doc-2,Great packaging and fast shipping. Very satisfied!,reviews,en,2025-08-21T14:05:00Z
+doc-3,App keeps crashing during checkout. Please fix asap.,ticket,en,2025-08-22T09:18:00Z
+doc-4,Customer support was helpful but wait time was long.,ticket,en,2025-08-22T11:42:00Z
+doc-5,"Entrega muy lenta, llegó con retraso y sin aviso.",reviews,es,2025-08-23T08:00:00Z
+doc-6,"Neutral experience. Product is okay, nothing special.",survey,en,2025-08-23T12:30:00Z
+doc-7,Got the wrong color. Exchange process is confusing.,ticket,en,2025-08-24T16:45:00Z
+doc-8,"Amazing quality, would recommend to friends.",reviews,en,2025-08-24T18:12:00Z
+doc-9,"Late delivery again, tracking page showed no movement.",reviews,en,2025-08-25T07:55:00Z
+doc-10,Support bot gave irrelevant answers. Frustrating.,ticket,en,2025-08-25T09:33:00Z
+doc-11,La app es rápida y fácil de usar.,reviews,es,2025-08-25T11:20:00Z
+doc-12,Packaging damaged and item had scratches.,reviews,en,2025-08-25T13:05:00Z
+doc-13,Late delivery and missed ETA notifications.,reviews,en,2025-08-25T16:40:00Z
+doc-14,Checkout error: payment declined but money deducted.,ticket,en,2025-08-26T08:10:00Z
+doc-15,"Excelente servicio al cliente, gracias!",ticket,es,2025-08-26T10:25:00Z
+doc-16,Neutral: product matches description.,survey,en,2025-08-26T12:00:00Z
+doc-17,Return policy unclear; couldn't find instructions.,ticket,en,2025-08-26T16:05:00Z
+doc-18,"Love the new design, looks premium.",reviews,en,2025-08-26T18:30:00Z
+doc-19,Delivery delay with no SMS updates. Very annoyed.,reviews,en,2025-08-27T07:45:00Z
+doc-20,Chat support was polite and quick.,ticket,en,2025-08-27T10:15:00Z
+doc-21,Sistema de seguimiento no mostró avances.,reviews,es,2025-08-27T12:55:00Z
+doc-22,Item arrived broken; return took too long.,ticket,en,2025-08-27T13:30:00Z
+doc-23,Website slow during sale; checkout hung twice.,ticket,en,2025-08-27T16:10:00Z
+doc-24,Package was delivered early. Nice surprise!,reviews,en,2025-08-27T18:05:00Z

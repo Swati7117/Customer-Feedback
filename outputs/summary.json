@@ -1,0 +1,457 @@
+{
+  "primary_id": "demo-run",
+  "main_response": {
+    "content": {
+      "sentiment_distribution": [
+        {
+          "window_start": "2025-08-20T10:23:00+00:00",
+          "window_end": "2025-08-27T18:05:00+00:00",
+          "positive": 0.2917,
+          "negative": 0.5417,
+          "neutral": 0.1667,
+          "n": 24
+        }
+      ],
+      "top_issues": [
+        {
+          "cluster_id": "iss-391c",
+          "label": "delivery",
+          "count": 4,
+          "trend": "n/a",
+          "exemplars": [
+            "doc-1",
+            "doc-9"
+          ]
+        },
+        {
+          "cluster_id": "iss-5d62",
+          "label": "late",
+          "count": 3,
+          "trend": "n/a",
+          "exemplars": [
+            "doc-1",
+            "doc-9"
+          ]
+        },
+        {
+          "cluster_id": "iss-3a7d",
+          "label": "item",
+          "count": 2,
+          "trend": "n/a",
+          "exemplars": [
+            "doc-12",
+            "doc-22"
+          ]
+        },
+        {
+          "cluster_id": "iss-1fab",
+          "label": "late delivery",
+          "count": 2,
+          "trend": "n/a",
+          "exemplars": [
+            "doc-9",
+            "doc-13"
+          ]
+        },
+        {
+          "cluster_id": "iss-6314",
+          "label": "return",
+          "count": 2,
+          "trend": "n/a",
+          "exemplars": [
+            "doc-17",
+            "doc-22"
+          ]
+        }
+      ],
+      "suggested_improvements": [
+        {
+          "title": "Address 'delivery'",
+          "rationale": "Frequent negative mentions (4) around 'delivery'.",
+          "evidence_examples": [
+            {
+              "id": "doc-1",
+              "excerpt": "",
+              "similarity": 0.0
+            },
+            {
+              "id": "doc-9",
+              "excerpt": "",
+              "similarity": 0.0
+            }
+          ]
+        },
+        {
+          "title": "Address 'late'",
+          "rationale": "Frequent negative mentions (3) around 'late'.",
+          "evidence_examples": [
+            {
+              "id": "doc-1",
+              "excerpt": "",
+              "similarity": 0.0
+            },
+            {
+              "id": "doc-9",
+              "excerpt": "",
+              "similarity": 0.0
+            }
+          ]
+        },
+        {
+          "title": "Address 'item'",
+          "rationale": "Frequent negative mentions (2) around 'item'.",
+          "evidence_examples": [
+            {
+              "id": "doc-12",
+              "excerpt": "",
+              "similarity": 0.0
+            },
+            {
+              "id": "doc-22",
+              "excerpt": "",
+              "similarity": 0.0
+            }
+          ]
+        },
+        {
+          "title": "Address 'late delivery'",
+          "rationale": "Frequent negative mentions (2) around 'late delivery'.",
+          "evidence_examples": [
+            {
+              "id": "doc-9",
+              "excerpt": "",
+              "similarity": 0.0
+            },
+            {
+              "id": "doc-13",
+              "excerpt": "",
+              "similarity": 0.0
+            }
+          ]
+        },
+        {
+          "title": "Address 'return'",
+          "rationale": "Frequent negative mentions (2) around 'return'.",
+          "evidence_examples": [
+            {
+              "id": "doc-17",
+              "excerpt": "",
+              "similarity": 0.0
+            },
+            {
+              "id": "doc-22",
+              "excerpt": "",
+              "similarity": 0.0
+            }
+          ]
+        }
+      ],
+      "retrieved_examples": [
+        {
+          "query_doc": "doc-1",
+          "neighbors": [
+            {
+              "id": "doc-19",
+              "score": 0.1633
+            },
+            {
+              "id": "doc-13",
+              "score": 0.1496
+            },
+            {
+              "id": "doc-9",
+              "score": 0.1338
+            }
+          ]
+        },
+        {
+          "query_doc": "doc-5",
+          "neighbors": [
+            {
+              "id": "doc-24",
+              "score": 0.0
+            },
+            {
+              "id": "doc-23",
+              "score": 0.0
+            },
+            {
+              "id": "doc-22",
+              "score": 0.0
+            }
+          ]
+        },
+        {
+          "query_doc": "doc-6",
+          "neighbors": [
+            {
+              "id": "doc-16",
+              "score": 0.2089
+            },
+            {
+              "id": "doc-24",
+              "score": 0.0
+            },
+            {
+              "id": "doc-22",
+              "score": 0.0
+            }
+          ]
+        },
+        {
+          "query_doc": "doc-7",
+          "neighbors": [
+            {
+              "id": "doc-24",
+              "score": 0.0
+            },
+            {
+              "id": "doc-23",
+              "score": 0.0
+            },
+            {
+              "id": "doc-22",
+              "score": 0.0
+            }
+          ]
+        },
+        {
+          "query_doc": "doc-9",
+          "neighbors": [
+            {
+              "id": "doc-13",
+              "score": 0.2216
+            },
+            {
+              "id": "doc-1",
+              "score": 0.1338
+            },
+            {
+              "id": "doc-19",
+              "score": 0.0601
+            }
+          ]
+        },
+        {
+          "query_doc": "doc-10",
+          "neighbors": [
+            {
+              "id": "doc-20",
+              "score": 0.0767
+            },
+            {
+              "id": "doc-4",
+              "score": 0.0613
+            },
+            {
+              "id": "doc-22",
+              "score": 0.0
+            }
+          ]
+        },
+        {
+          "query_doc": "doc-11",
+          "neighbors": [
+            {
+              "id": "doc-3",
+              "score": 0.0739
+            },
+            {
+              "id": "doc-24",
+              "score": 0.0
+            },
+            {
+              "id": "doc-22",
+              "score": 0.0
+            }
+          ]
+        },
+        {
+          "query_doc": "doc-12",
+          "neighbors": [
+            {
+              "id": "doc-2",
+              "score": 0.1031
+            },
+            {
+              "id": "doc-22",
+              "score": 0.095
+            },
+            {
+              "id": "doc-23",
+              "score": 0.0
+            }
+          ]
+        },
+        {
+          "query_doc": "doc-13",
+          "neighbors": [
+            {
+              "id": "doc-9",
+              "score": 0.2216
+            },
+            {
+              "id": "doc-1",
+              "score": 0.1496
+            },
+            {
+              "id": "doc-19",
+              "score": 0.0672
+            }
+          ]
+        },
+        {
+          "query_doc": "doc-14",
+          "neighbors": [
+            {
+              "id": "doc-3",
+              "score": 0.0613
+            },
+            {
+              "id": "doc-23",
+              "score": 0.0606
+            },
+            {
+              "id": "doc-22",
+              "score": 0.0
+            }
+          ]
+        },
+        {
+          "query_doc": "doc-15",
+          "neighbors": [
+            {
+              "id": "doc-24",
+              "score": 0.0
+            },
+            {
+              "id": "doc-23",
+              "score": 0.0
+            },
+            {
+              "id": "doc-22",
+              "score": 0.0
+            }
+          ]
+        },
+        {
+          "query_doc": "doc-16",
+          "neighbors": [
+            {
+              "id": "doc-6",
+              "score": 0.2089
+            },
+            {
+              "id": "doc-24",
+              "score": 0.0
+            },
+            {
+              "id": "doc-22",
+              "score": 0.0
+            }
+          ]
+        },
+        {
+          "query_doc": "doc-17",
+          "neighbors": [
+            {
+              "id": "doc-22",
+              "score": 0.0821
+            },
+            {
+              "id": "doc-24",
+              "score": 0.0
+            },
+            {
+              "id": "doc-23",
+              "score": 0.0
+            }
+          ]
+        },
+        {
+          "query_doc": "doc-19",
+          "neighbors": [
+            {
+              "id": "doc-1",
+              "score": 0.1633
+            },
+            {
+              "id": "doc-13",
+              "score": 0.0672
+            },
+            {
+              "id": "doc-9",
+              "score": 0.0601
+            }
+          ]
+        },
+        {
+          "query_doc": "doc-21",
+          "neighbors": [
+            {
+              "id": "doc-24",
+              "score": 0.0
+            },
+            {
+              "id": "doc-23",
+              "score": 0.0
+            },
+            {
+              "id": "doc-22",
+              "score": 0.0
+            }
+          ]
+        },
+        {
+          "query_doc": "doc-22",
+          "neighbors": [
+            {
+              "id": "doc-12",
+              "score": 0.095
+            },
+            {
+              "id": "doc-17",
+              "score": 0.0821
+            },
+            {
+              "id": "doc-4",
+              "score": 0.0754
+            }
+          ]
+        },
+        {
+          "query_doc": "doc-23",
+          "neighbors": [
+            {
+              "id": "doc-3",
+              "score": 0.0613
+            },
+            {
+              "id": "doc-14",
+              "score": 0.0606
+            },
+            {
+              "id": "doc-24",
+              "score": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    "metadata": [
+      {
+        "key": "tenant",
+        "value": "demo"
+      }
+    ],
+    "confidence_score": 0.0,
+    "uncertainty_factors": []
+  },
+  "supporting_data": [],
+  "performance_metrics": {},
+  "system_metadata": {
+    "model_info": "vader+tfidf",
+    "strategy_info": "mini-rag-v0",
+    "timestamp": "2025-08-28T13:05:47.324863Z"
+  }
+}
